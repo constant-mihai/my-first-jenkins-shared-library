@@ -14,6 +14,7 @@ def checkOutFrom(String repo = 'default') {
             }
         }
     }
+    }
 }
 
 return this
