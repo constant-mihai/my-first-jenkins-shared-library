@@ -2,7 +2,7 @@
 package org.foo
 
 def checkOutFrom(repo) {
-    echo "this is the shared library"
+    print ${repo}
 }
 
 return this
