@@ -1,8 +1,8 @@
 // src/org/foo/Zot.groovy
 package org.foo
 
-def checkOutFrom(repo) {
-    print ${repo}
+def checkOutFrom(string repo = 'default') {
+    echo "Repo is ${repo}"
 }
 
 return this
